@@ -33,7 +33,7 @@ selected = option_menu("Navigation",
                         styles={"container": {"width": "100%","border": "2px ridge #000000","background-color": "#391C59"},
                                 "icon": {"color": "#F8CD47", "font-size": "20px"}})
 
-#setup the detial for the option 'ABOUT'
+#setup the detail for the option 'ABOUT'
 if selected == "ABOUT":
         st.subheader(':violet[Project Title:]')
         st.markdown('''<h5>Phonepe Pulse Data Visualization and Exploration:
@@ -57,7 +57,7 @@ if selected == "ABOUT":
         st.link_button('Linkedin','https://www.linkedin.com/in/gokul-m-j17/') 
         
 
-#setup the detial for the option 'HOME'
+#setup the detail for the option 'HOME'
 if selected =="HOME":
         col1,col2=st.columns(2)
         with col1:
@@ -95,7 +95,7 @@ if selected =="HOME":
         with col2:
                 st.video('https://youtu.be/Yy03rjSUIB8?si=eJRqbCm-K_RDtv0Y')
 
-#setup detial for the option "Geo Visualization"
+#setup details for the option "Geo Visualization"
 if selected =="GEO VISUALIZATION":
         
         def ind_geo():
@@ -274,7 +274,7 @@ if selected =="GEO VISUALIZATION":
                                 st.subheader(f":violet[Total Registered User for States in {selected_year}-Q{selected_Quater} ]")
                                 st.plotly_chart(fig,use_container_width = True)
 
-#setup detial for the option 'insights'
+#setup details for the option 'insights'
 if selected =="INSIGHTS":
         select_insight=option_menu('',options=["TOP INSIGHTS","FILTER INSIGHTS"],
                                 icons=["bar-chart", "toggles"],
