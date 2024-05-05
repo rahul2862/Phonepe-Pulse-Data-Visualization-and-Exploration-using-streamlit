@@ -66,5 +66,5 @@ The data utilized in this project predominantly consists of openly available dat
 * [Plotly Documentation](https://plotly.com/python/)
 
 ### 📞 Contact
-[LINKEDIN](www.linkedin.com/in/gokul-m-j17/)
-[EMAIL](gokulgokul6847@gmail.com)
+LINKEDIN: www.linkedin.com/in/gokul-m-j17/             
+EMAIL : gokulgokul6847@gmail.com
