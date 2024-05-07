@@ -65,6 +65,10 @@ The data utilized in this project predominantly consists of openly available dat
 * [Streamlit Documentation](https://docs.streamlit.io/)
 * [Plotly Documentation](https://plotly.com/python/)
 
+### 🎥 Demo Video
+
+YT Link : https://youtu.be/-PQhoSl6GGQ?si=Yp53qDwjJBTKIQR0
+
 ### 📞 Contact
 LINKEDIN: www.linkedin.com/in/gokul-m-j17/             
 EMAIL : gokulgokul6847@gmail.com
