@@ -19,7 +19,7 @@ mycursor.execute('use phonepe')
 #set up page configuration for streamlit
 icon='https://cdn.iconscout.com/icon/free/png-512/free-phonepe-2709167-2249157.png?f=webp&w=256'
 st.set_page_config(page_title='PHONEPE PULSE',page_icon=icon,initial_sidebar_state='expanded',
-                        layout='wide',menu_items={"about":'This streamlit application was developed by M.Gokul'})
+                        layout='wide',menu_items={"about":'This streamlit application was developed by Raveendran'})
 
 title_text = '''<h1 style='font-size: 36px;color:violet;text-align: center;'>PHONEPE PULSE: The Heartbeat of India's Digital Revolution</h1>'''
 st.markdown(title_text, unsafe_allow_html=True)
@@ -52,9 +52,9 @@ if selected == "ABOUT":
                 <h5>Plotly: Integrated Plotly, a versatile plotting library, to generate insightful visualizations from the dataset. Plotly's interactive plots,
                 including geospatial plots and other data visualizations, provided users with a comprehensive understanding of the dataset's contents.''',unsafe_allow_html=True)
         st.subheader(':violet[About :]')
-        st.markdown('''<h5>Hello! I'm Gokul, a MBA graduate with a keen interest in data science and analytics.
+        st.markdown('''<h5>Hello! I'm Raveendran, a MBA graduate with a keen interest in data science and analytics.
                 Currently on an exciting journey into the world of data science...''',unsafe_allow_html=True)
-        st.link_button('Linkedin','https://www.linkedin.com/in/gokul-m-j17/') 
+        st.link_button('Linkedin','https://www.linkedin.com/in/Raveendran-m-j17/') 
         
 
 #setup the detail for the option 'HOME'
